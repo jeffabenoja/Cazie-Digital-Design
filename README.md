@@ -20,7 +20,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./IMG/screenshot.jpg)
+![](./IMG/Screenshot.jpg)
 
 ![Getting Started](./Screenshot.jpg)
 

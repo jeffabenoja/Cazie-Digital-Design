@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Go to site](https://jeffabenoja.github.io/product_preview/)
+- Live Site URL: [Go to site](https://jeffabenoja.github.io/Cazie-Digital-Design/)
 
 ### Built with
 

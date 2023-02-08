@@ -22,8 +22,6 @@ Users should be able to:
 
 ![](./IMG/Screenshot.jpg)
 
-![Getting Started](./Screenshot.jpg)
-
 ### Links
 
 - Live Site URL: [Go to site](https://jeffabenoja.github.io/Cazie-Digital-Design/)

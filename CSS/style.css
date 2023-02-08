@@ -1,0 +1,722 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    background-color: lightgrey;
+}
+
+/* Global */
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header ul {
+    margin: 0;
+    padding: 0;
+}
+
+.btn {
+    background-color: #e8491d;
+    border: none;
+    height: 38px;
+    color: #fff;
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+}
+
+.dark {
+    background: darkslategrey;
+    padding: 15px;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.high {
+    padding: 15px;
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.page-title {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    padding: 5px;
+}
+
+
+/* Header */
+header {
+    background: darkslategray;
+    color: #fff;
+    padding-top: 10px;
+    min-height: 70px;
+    border-bottom: 3px solid #fa5;
+}
+
+header a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+header li {
+    display: inline;
+    float: left;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+header a:hover {
+    color: lightgray;
+    font-weight: bold;
+}
+
+header #webname {
+    float: left;
+}
+
+#webname h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200;
+    letter-spacing: 2px;
+
+}
+
+header nav {
+    float: right;
+    margin: 35px 0 30px 0;
+
+}
+
+header .highlight, header .current a{
+    color: #fa5;
+}
+
+/* Main Content in Home page*/
+#main-selection {
+    min-height: 400px;
+    background: url('../IMG/main-selection.jpg') no-repeat 0 -110px;
+    color: #fff;
+    text-align: center;
+}
+
+#main-selection h1 {
+    margin-top: 70px;
+    margin-bottom: 10px;
+    font-size: 55px;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+}
+
+#main-selection p {
+    margin-top: 45px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: black;
+    background-color: #ccc;
+    border-radius: 30px;
+    padding: 5px;
+
+}
+
+/* Sub Content */
+#sub-selection {
+    padding: 20px;
+    background-color: #35424a;
+
+}
+
+#sub-selection h1 {
+    float: left;
+    margin-top: 10px;
+    color: lightgray;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#sub-selection form {
+    float: right;
+    margin-top: 10px;
+}
+
+#sub-selection input[type="email"]{
+    padding: 4px;
+    height: 25px;
+    width: 220px;
+    
+}
+
+/* Boxes Section */
+#selection-boxes {
+    margin-top: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+}
+
+.box h3 {
+    font-size: 1.6em;
+    font-weight: 300;
+}
+
+#selection-boxes .box {
+    width: 30%;
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+}
+
+#selection-boxes .box img {
+    width: 30%;
+}
+
+/* Main Section in About page */
+article#main-col {
+    float:left;
+    width: 65%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    position: relative;
+}
+
+
+#bg-p {
+    position: relative;
+    background: linear-gradient(to bottom right, #e6e6e6, #35424a, #5f9ea0, black, lightgray );
+    color: #f5f5f5;
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 15px;
+    right: -45px;
+}
+
+/* sub-col in about page */
+article#sub-col {
+    float: left;
+    width: 65%;
+}
+
+article#sub-col h1 {
+    background: linear-gradient(360deg, #000, #fa5, #35424a);
+    border-radius: 60%;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-align: center;
+}
+
+#sub-col ul {
+    margin: 0;
+    padding: 0;
+}
+
+#sub-col li {
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+    list-style: none;
+}
+
+/* Side Bar */
+aside#right-side {
+    float: right;
+    width: 30%;
+    margin-top: 17%;
+}
+
+.side-section {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.side-section h3 {
+    font-size: 1.5em;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+}
+
+.br-bottom {
+    border-bottom: 1.5px solid white;
+}
+
+/* Side bar in Services page */
+aside#right-side-services {
+    float: right;
+    width: 30%;
+    margin-top: 17%;
+}
+
+
+aside#right-side-services h3 {
+    font-size: 20px;
+    margin-top: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+aside#right-side-services .msg input, aside#right-side-services .msg textarea {
+    width: 90%;
+    padding: 5px;
+}
+
+
+.msg input, textarea {
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.btn-services {
+    background-color: #e8491d;
+    color: white;
+    height: 38px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 20px;
+    border: none;
+    
+}
+
+/* main section in services page */
+ul#services li {
+    border: 1px solid #ccc;
+    list-style: none;
+    padding: 20px;
+    background: #e6e6e6;
+    margin-bottom: 15px;
+}
+
+
+
+/* Lower Side Bar */
+aside#lower-right-side {
+    width: 30% !important;
+    margin-top: 20%;
+    float: right;
+}
+
+aside#lower-right-side .light {
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: #e6e6e6;
+}
+
+aside#lower-right-side h3 {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    padding: 5px;
+}
+
+ul#lw-side-li {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+}
+
+ul#lw-side-li li {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+ul#lw-side-li li a {
+    text-decoration: none;
+    transition: 0.4.s ease-in-out;
+}
+
+ul#lw-side-li li a:hover {
+    text-decoration: underline;
+}
+
+ul#lw-side-li p {
+    margin-top: 2px;
+    margin-left: 20px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+}
+
+
+
+/* Footer */
+#ft-web {
+    margin-top: 10px;
+    background: #35424a;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.ft-box {
+    display: inline-block;
+    width: 30%;
+    padding-left: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+}
+
+#ft-web h3 span {
+    color: #fa5;
+}
+
+
+.mn-box {
+    margin-top: 50px;
+    font-size: 13px;
+    text-align: right;
+}
+
+.txt-align {
+    text-align: center;
+}
+
+#ft-web a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#ft-web a:hover {
+    color: #fa5;
+}
+
+.icons a {
+    text-decoration: none;
+    color: white;
+}
+
+.icons ion-icon {
+    font-size: 20px;
+    padding-left: 3px;
+}
+
+.icons ion-icon:hover {
+    color: #fa5;
+}
+
+#lw-footer {
+    border-top: 1px solid white;
+    margin-top: 3px;
+    padding-left: 30px;
+}
+
+#lw-footer p {
+    float: left;
+    color: #fff;
+    font-size: 14px; 
+}
+
+#lw-footer a {
+    float: right;
+    text-decoration: none;
+    padding-left: 20px;
+    margin-top: 14px;
+    font-size: 14px;
+    transition: 0.4s ease;
+}
+
+#lw-footer a:hover {
+    color: #fa5;
+}
+
+/* Media Queries */
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    header #webname,
+    header nav,
+    header nav li,
+    #selection-boxes .box,
+    article#main-col,
+    aside#right-side,
+    article#sub-col {
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+
+    header {
+        padding-bottom: 10px;
+    }
+
+    #main-selection h1 {
+        margin-top: 30px;
+    }
+
+    #main-selection p {
+        margin: 10px;
+    }
+
+    #selection-boxes {
+        width: 100%;
+        display: block;
+    }
+
+    #selection-boxes .box {
+        display: inline-block;
+        width: 45%;
+        padding: 8px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    section#selection-boxes .box img {
+        width: 30%;
+    }
+
+    #sub-selection h1,
+    #sub-selection form {
+        float: none;
+        text-align: center;
+    }
+
+
+    #sub-selection .btn {
+        width: 82%;
+    }
+
+    #sub-selection form input[type="email"] {
+        width: 80%;
+        margin-bottom: 8px;
+    }
+
+    aside#right-side, article#sub-col {
+        margin: auto;
+        overflow: hidden;
+    }
+    
+    #bg-p {
+        background: linear-gradient(to bottom right, #e6e6e6, #35424a, #5f9ea0, black, lightgray );
+        color: #f5f5f5;
+        border-radius: 10px;
+        padding: 15px;
+        font-size: 15px;
+        left: 0px;
+    }
+
+    /*Service page*/
+    aside#right-side-services .msg input, 
+    aside#right-side-services .msg textarea {
+        width: 100%;
+        padding: 5px;
+        overflow: hidden;
+    }
+
+    aside#right-side-services .dark {
+        overflow: hidden;
+        width: 100%;
+    }
+
+    #right-side-services .btn-services {
+        display: block;
+        width: 50%;
+        border-radius: 5px;
+    }
+
+    #services {
+        margin: 0;
+        padding: 0;
+    }
+
+    aside#right-side-services {
+        width: 95%;
+        margin: auto;
+        float: left;
+    }
+
+    aside#lower-right-side {
+        display: none;
+    }
+
+
+    /* Footer */
+    .ft-box {
+        display: inline-block;
+        padding: 5px;
+        width: 25%;
+        margin-left: 20px;
+        margin-right: 15px;
+    }
+
+    .mn-box {
+        text-align: center;
+    }
+
+    #lw-footer p,
+    #lw-footer a,
+    #lw-footer {
+        display: block;
+        margin-bottom: 10px;
+        margin-left: 5px;
+        margin-top: 2px;
+        float: none;
+        padding: 3px;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 360px) and (max-width: 767px) {
+
+    /* Home Page */
+    header #webname,
+    header nav,
+    header nav li,
+    #selection-boxes .box,
+    article#main-col,
+    aside#right-side,
+    article#sub-col {
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    /* Header */
+    header #webname {
+        font-size: 14px;
+    }
+
+    header nav li {
+        padding-left: 10px;
+    }
+
+    /*Main Section*/
+    #main-selection h1 {
+        font-size: 34px;
+        margin-bottom: 20px;
+        margin-top: 42px;
+    }
+
+    #main-selection p {
+        border-radius: 15px;
+        margin: 38px 0 20px 0;
+    }
+
+    /* Second Section in Home Page*/
+
+    #sub-selection .btn {
+        width: 85%;
+    }
+
+    #sub-selection form input[type="email"] {
+        width: 80%;
+        margin-bottom: 8px;
+    }
+    
+    #sub-selection h1,
+    #sub-selection form {
+        float: none;
+        text-align: center;
+    }
+
+    #selection-boxes {
+        width: 100%;
+        display: block;
+    }
+
+    section#selection-boxes .box img {
+        width: 30%;
+    }
+
+    .box p {
+        font-size: 14px;
+    }
+
+    /*sub-col*/
+
+    #bg-p {
+        background: linear-gradient(to bottom right, #e6e6e6, #35424a, #5f9ea0, black, lightgray );
+        color: #f5f5f5;
+        border-radius: 10px;
+        padding: 15px;
+        font-size: 15px;
+        left: 0px;
+    }
+
+    article#sub-col h1 {
+        font-size: 1.5em;
+    }
+
+    /* service page*/
+    aside#right-side-services .msg input, 
+    aside#right-side-services .msg textarea {
+        width: 100%;
+        padding: 5px;
+        overflow: hidden;
+    }
+
+    aside#right-side-services .dark {
+        overflow: hidden;
+        width: 100%;
+    }
+
+    #right-side-services .btn-services {
+        display: block;
+        width: 50%;
+        border-radius: 5px;
+    }
+
+    #services {
+        margin: 0;
+        padding: 0;
+    }
+
+
+    aside#right-side-services {
+        width: 90%;
+        margin: auto;
+        float: left;
+    }
+
+    aside#lower-right-side {
+        display: none;
+    }
+
+
+    /* Footer */
+
+    #ft-web {
+        width: 100%;
+    }
+
+    .ft-box h3 {
+        font-size: 20px;
+        
+    }
+
+    .ft-box {
+        margin: auto;
+        padding: 10px;
+        padding-top: 0;
+        display: block;
+        overflow: hidden;
+        width: 100%;
+    }
+
+
+    .mn-box {
+        text-align: left;
+    }
+
+
+    #lw-footer,
+    #lw-footer p,
+    #lw-footer a  {
+        text-align: center;
+        margin-bottom: 10px;
+        margin-left: 5px;
+        margin-top: 2px;
+        float: none;
+        padding: 3px;
+    }
+
+}
+

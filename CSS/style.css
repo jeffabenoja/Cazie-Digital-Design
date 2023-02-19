@@ -105,6 +105,7 @@ header .highlight, header .current a{
 #main-selection {
     min-height: 400px;
     background: url('../IMG/main-selection.jpg') no-repeat 0 -110px;
+    background-size: cover;
     color: #fff;
     text-align: center;
 }
